@@ -1,0 +1,12 @@
+﻿/* TEAM */
+
+Developer & Designer: Kingwen.Chow
+Site: http://www.trefork.com, https://github.com/trefrok
+Twitter: @KingwenChow
+Location: Anywhere I lay my hat
+
+/* SITE */
+
+Last Update: 2013/12/23
+Plax is a jQuery plugin that makes it suuuuuper easy to parallax elements in your site based on mouse position. 
+Opensource: https://github.com/cameronmcefee/plax

@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+
+	<meta charset="utf-8">
+
+	<title>TreFork. Preparing for the Uprising...</title>
+
+	<!-- Core Meta Data -->
+	<meta name="author" content="Kingwen Chow">
+	<meta name="description" content="深圳市三叉戟科技有限公司, Shenzhen Trefork Technology Co., Ltd. ">
+	<meta name="keywords" content="trefork,三叉戟,开源硬件,Open source hardware,smart device">
+
+	<!-- Humans -->
+	<link rel="author" href="humans.txt" />
+	<meta name="google-site-verification" content="nY11Aue4n1reGvp9JN8g7R-Ml1C2JXS4WB0bB3Eww6I" />
+
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.ez-bg-resize.js" charset="utf-8"></script>
+	<script type="text/javascript" src="js/plax.js"></script>
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="favicon.png" type="image/png">
+
+	<style type="text/css">
+	  * {
+	    margin: 0px;
+	    padding: 0px;
+	  }
+	  body {
+	    position: relative;
+	  }
+	  div#shell {
+	    display: block;
+	    position: relative;
+	    margin: 150px auto;
+	    width: 318px;
+	    height: 318px;
+	  }
+	  div#shell{
+	    z-index: 1;
+	  }
+	  img#plax-logo {
+	    position: absolute;
+	    top: 175px;
+	    left: 96px;
+	    z-index: 3;
+	  }
+	  img#plax_hang {
+	    position: absolute;
+	    z-index: 4;
+	    top: 288px;
+	    left: -98px;
+	  }
+	  img#plax_hangouts {
+	    position: absolute;
+	    z-index: 2;
+	    top: 49px;
+	    left: 53px;
+	  }
+	  img#plax_outs {
+	    position: absolute;
+	    top: 25px;
+	    left: 29px;
+	    z-index: 1;
+	  }
+	</style>
+	
+	<script type="text/javascript">
+	$(document).ready(function() {
+		$("body").ezBgResize({
+			img : "img/background.jpg"
+		});
+	});
+	</script>	
+	
+	<script type="text/javascript">
+	  $(document).ready(function () {
+	    $('#shell img').plaxify()
+	    $.plax.enable()
+	  })
+	</script>
+	
+  </head>
+  <body>
+	<div id="shell">
+	  <img src="img/plax_logo.png" width="170" height="40" data-xrange="10" data-yrange="60" id="plax-logo"/>
+	  <a href="https://google.com/+Trefork_Tech">
+	  <img src="img/plax_hang.png" width="480" height="90" data-xrange="40" data-yrange="40" id="plax_hang"/>
+	  </a>
+	  <img src="img/plax_hangouts.png" width="270" height="270" data-xrange="10" data-yrange="10" id="plax_hangouts"/>
+	  <img src="img/plax_outs.png" width="90" height="90" data-xrange="40" data-yrange="40" data-invert="true" id="plax_outs"/>
+    </div>
+  </body>
+</html>
